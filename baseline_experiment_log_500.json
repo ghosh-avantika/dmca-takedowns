@@ -1,0 +1,358 @@
+{
+  "experiment_name": "Baseline Comparison (500 samples)",
+  "date": "2026-01-27T15:49:16.434397",
+  "dataset": {
+    "train_samples": 400,
+    "val_samples": 42,
+    "test_samples": 42,
+    "total_samples": 484,
+    "feature_dim": 512,
+    "classes": [
+      "knockoff",
+      "similar"
+    ]
+  },
+  "models_tested": 13,
+  "best_traditional_ml": {
+    "name": "SVM (Linear)",
+    "test_accuracy": 0.6904761904761905,
+    "test_f1": 0.6906517570159091
+  },
+  "best_neural_network": {
+    "name": "Medium MLP (2 Hidden Layers)",
+    "test_accuracy": 0.8095238095238095,
+    "test_f1": 0.8095238095238095
+  },
+  "best_overall": {
+    "name": "Medium MLP (2 Hidden Layers)",
+    "test_accuracy": 0.8095238095238095,
+    "test_f1": 0.8095238095238095
+  },
+  "all_results": [
+    {
+      "model": "Logistic Regression",
+      "type": "Traditional ML",
+      "cv_accuracy_mean": 0.8275,
+      "cv_accuracy_std": 0.05937171043518959,
+      "train_accuracy": 0.8675,
+      "train_f1": 0.86756381388425,
+      "val_accuracy": 0.8095238095238095,
+      "val_f1": 0.8095238095238095,
+      "test_accuracy": 0.6190476190476191,
+      "test_precision": 0.6218614718614719,
+      "test_recall": 0.6190476190476191,
+      "test_f1": 0.6190476190476191,
+      "test_roc_auc": 0.6977272727272728,
+      "confusion_matrix": [
+        [
+          13,
+          9
+        ],
+        [
+          7,
+          13
+        ]
+      ]
+    },
+    {
+      "model": "Logistic Regression (L1)",
+      "type": "Traditional ML",
+      "cv_accuracy_mean": 0.745,
+      "cv_accuracy_std": 0.05567764362830022,
+      "train_accuracy": 0.8,
+      "train_f1": 0.7999499987499687,
+      "val_accuracy": 0.8095238095238095,
+      "val_f1": 0.8086580086580087,
+      "test_accuracy": 0.6428571428571429,
+      "test_precision": 0.6482510624387054,
+      "test_recall": 0.6428571428571429,
+      "test_f1": 0.6422494125273479,
+      "test_roc_auc": 0.6909090909090909,
+      "confusion_matrix": [
+        [
+          13,
+          9
+        ],
+        [
+          6,
+          14
+        ]
+      ]
+    },
+    {
+      "model": "SVM (Linear)",
+      "type": "Traditional ML",
+      "cv_accuracy_mean": 0.8549999999999999,
+      "cv_accuracy_std": 0.05220153254455278,
+      "train_accuracy": 0.935,
+      "train_f1": 0.9350130208333333,
+      "val_accuracy": 0.7619047619047619,
+      "val_f1": 0.7619047619047619,
+      "test_accuracy": 0.6904761904761905,
+      "test_precision": 0.691609977324263,
+      "test_recall": 0.6904761904761905,
+      "test_f1": 0.6906517570159091,
+      "test_roc_auc": 0.740909090909091,
+      "confusion_matrix": [
+        [
+          15,
+          7
+        ],
+        [
+          6,
+          14
+        ]
+      ]
+    },
+    {
+      "model": "SVM (RBF)",
+      "type": "Traditional ML",
+      "cv_accuracy_mean": 0.9275,
+      "cv_accuracy_std": 0.024238399287081644,
+      "train_accuracy": 0.975,
+      "train_f1": 0.9750112601341206,
+      "val_accuracy": 0.8333333333333334,
+      "val_f1": 0.8318957255127467,
+      "test_accuracy": 0.6904761904761905,
+      "test_precision": 0.691609977324263,
+      "test_recall": 0.6904761904761905,
+      "test_f1": 0.6906517570159091,
+      "test_roc_auc": 0.7909090909090909,
+      "confusion_matrix": [
+        [
+          15,
+          7
+        ],
+        [
+          6,
+          14
+        ]
+      ]
+    },
+    {
+      "model": "Decision Tree",
+      "type": "Traditional ML",
+      "cv_accuracy_mean": 0.7849999999999999,
+      "cv_accuracy_std": 0.051478150704935006,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "val_accuracy": 0.8095238095238095,
+      "val_f1": 0.806878306878307,
+      "test_accuracy": 0.6428571428571429,
+      "test_precision": 0.6554621848739496,
+      "test_recall": 0.6428571428571429,
+      "test_f1": 0.6398046398046399,
+      "test_roc_auc": 0.6477272727272727,
+      "confusion_matrix": [
+        [
+          12,
+          10
+        ],
+        [
+          5,
+          15
+        ]
+      ]
+    },
+    {
+      "model": "Random Forest",
+      "type": "Traditional ML",
+      "cv_accuracy_mean": 0.925,
+      "cv_accuracy_std": 0.02622022120425378,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "val_accuracy": 0.8571428571428571,
+      "val_f1": 0.8571428571428571,
+      "test_accuracy": 0.6190476190476191,
+      "test_precision": 0.6269841269841271,
+      "test_recall": 0.6190476190476191,
+      "test_f1": 0.6173160173160173,
+      "test_roc_auc": 0.6795454545454545,
+      "confusion_matrix": [
+        [
+          12,
+          10
+        ],
+        [
+          6,
+          14
+        ]
+      ]
+    },
+    {
+      "model": "Gradient Boosting",
+      "type": "Traditional ML",
+      "cv_accuracy_mean": 0.9199999999999999,
+      "cv_accuracy_std": 0.020310096011589906,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "val_accuracy": 0.8333333333333334,
+      "val_f1": 0.8330484330484331,
+      "test_accuracy": 0.6190476190476191,
+      "test_precision": 0.6269841269841271,
+      "test_recall": 0.6190476190476191,
+      "test_f1": 0.6173160173160173,
+      "test_roc_auc": 0.7045454545454546,
+      "confusion_matrix": [
+        [
+          12,
+          10
+        ],
+        [
+          6,
+          14
+        ]
+      ]
+    },
+    {
+      "model": "K-Nearest Neighbors",
+      "type": "Traditional ML",
+      "cv_accuracy_mean": 0.9175000000000001,
+      "cv_accuracy_std": 0.03221024681681278,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "val_accuracy": 0.7857142857142857,
+      "val_f1": 0.7776928953399542,
+      "test_accuracy": 0.5952380952380952,
+      "test_precision": 0.5943977591036415,
+      "test_recall": 0.5952380952380952,
+      "test_f1": 0.591746761959528,
+      "test_roc_auc": 0.6386363636363637,
+      "confusion_matrix": [
+        [
+          15,
+          7
+        ],
+        [
+          10,
+          10
+        ]
+      ]
+    },
+    {
+      "model": "Naive Bayes",
+      "type": "Traditional ML",
+      "cv_accuracy_mean": 0.7424999999999999,
+      "cv_accuracy_std": 0.036742346141747685,
+      "train_accuracy": 0.7775,
+      "train_f1": 0.7763579302953767,
+      "val_accuracy": 0.7380952380952381,
+      "val_f1": 0.7328240094197541,
+      "test_accuracy": 0.5,
+      "test_precision": 0.5058823529411764,
+      "test_recall": 0.5,
+      "test_f1": 0.49572649572649574,
+      "test_roc_auc": 0.5568181818181819,
+      "confusion_matrix": [
+        [
+          9,
+          13
+        ],
+        [
+          8,
+          12
+        ]
+      ]
+    },
+    {
+      "model": "Linear NN (No Hidden Layers)",
+      "type": "Neural Network",
+      "cv_accuracy_mean": null,
+      "cv_accuracy_std": null,
+      "train_accuracy": 0.9275,
+      "train_f1": 0.9275077170639467,
+      "val_accuracy": 0.7857142857142857,
+      "val_f1": 0.7853479853479854,
+      "test_accuracy": 0.7142857142857143,
+      "test_precision": 0.7142857142857143,
+      "test_recall": 0.7142857142857143,
+      "test_f1": 0.7142857142857143,
+      "test_roc_auc": 0.7545454545454545,
+      "confusion_matrix": [
+        [
+          16,
+          6
+        ],
+        [
+          6,
+          14
+        ]
+      ]
+    },
+    {
+      "model": "Shallow MLP (1 Hidden Layer)",
+      "type": "Neural Network",
+      "cv_accuracy_mean": null,
+      "cv_accuracy_std": null,
+      "train_accuracy": 0.9825,
+      "train_f1": 0.9825071168922173,
+      "val_accuracy": 0.8095238095238095,
+      "val_f1": 0.8086520649449711,
+      "test_accuracy": 0.7380952380952381,
+      "test_precision": 0.7380407540590607,
+      "test_recall": 0.7380952380952381,
+      "test_f1": 0.7376475376475375,
+      "test_roc_auc": 0.8113636363636364,
+      "confusion_matrix": [
+        [
+          17,
+          5
+        ],
+        [
+          6,
+          14
+        ]
+      ]
+    },
+    {
+      "model": "Medium MLP (2 Hidden Layers)",
+      "type": "Neural Network",
+      "cv_accuracy_mean": null,
+      "cv_accuracy_std": null,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "val_accuracy": 0.8571428571428571,
+      "val_f1": 0.8564890487087284,
+      "test_accuracy": 0.8095238095238095,
+      "test_precision": 0.8095238095238095,
+      "test_recall": 0.8095238095238095,
+      "test_f1": 0.8095238095238095,
+      "test_roc_auc": 0.8272727272727273,
+      "confusion_matrix": [
+        [
+          18,
+          4
+        ],
+        [
+          4,
+          16
+        ]
+      ]
+    },
+    {
+      "model": "Deep MLP (3 Hidden Layers) [Proposed]",
+      "type": "Neural Network",
+      "cv_accuracy_mean": null,
+      "cv_accuracy_std": null,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "val_accuracy": 0.7857142857142857,
+      "val_f1": 0.7853479853479854,
+      "test_accuracy": 0.7857142857142857,
+      "test_precision": 0.785877737822818,
+      "test_recall": 0.7857142857142857,
+      "test_f1": 0.7853479853479854,
+      "test_roc_auc": 0.7954545454545454,
+      "confusion_matrix": [
+        [
+          18,
+          4
+        ],
+        [
+          5,
+          15
+        ]
+      ]
+    }
+  ]
+}

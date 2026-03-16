@@ -1,0 +1,4 @@
+dataset,model,middle_class,accuracy,macro_f1,confusion_matrix,t1,t2,val_macro_f1_for_threshold_search
+dataset_500_with_original.pt,Cosine Thresholds,similar,0.4824561403508772,0.48086081175025797,"[[22, 11, 7], [15, 14, 8], [7, 11, 19]]",0.14421506573756535,0.22053179542223614,0.433834930717606
+dataset_500_with_original.pt,Logistic Regression (pairwise features),similar,0.4473684210526316,0.4484635832004253,"[[14, 19, 7], [15, 14, 8], [8, 6, 23]]",,,
+dataset_500_with_original.pt,MLP (abs diff + pairwise features),similar,0.7368421052631579,0.736842105263158,"[[29, 6, 5], [4, 27, 6], [3, 6, 28]]",,,

@@ -1,0 +1,4 @@
+model,accuracy,macro_f1,val_threshold_macro_f1
+Cosine Thresholds,0.4824561403508772,0.48086081175025797,0.433834930717606
+Logistic Regression (pairwise features),0.4473684210526316,0.4484635832004253,
+MLP (abs diff + pairwise features),0.7368421052631579,0.736842105263158,

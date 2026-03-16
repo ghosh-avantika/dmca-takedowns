@@ -1,0 +1,295 @@
+{
+  "experiment_name": "Baseline Comparison",
+  "date": "2026-01-27T14:46:42.572582",
+  "dataset": {
+    "train_samples": 165,
+    "val_samples": 35,
+    "test_samples": 36,
+    "total_samples": 236,
+    "feature_dim": 512,
+    "classes": [
+      "knockoff",
+      "similar"
+    ],
+    "class_distribution": {
+      "knockoff": 125,
+      "similar": 75
+    }
+  },
+  "models_tested": 10,
+  "best_model": {
+    "name": "Random Forest",
+    "test_accuracy": 0.8055555555555556,
+    "test_f1": 0.7964539007092198
+  },
+  "all_results": [
+    {
+      "model": "Logistic Regression",
+      "cv_accuracy_mean": 0.6666666666666666,
+      "cv_accuracy_std": 0.07902063521457754,
+      "train_accuracy": 0.7636363636363637,
+      "train_f1": 0.7669421487603306,
+      "val_accuracy": 0.6571428571428571,
+      "val_f1": 0.6639097744360902,
+      "test_accuracy": 0.7222222222222222,
+      "test_precision": 0.7435500515995872,
+      "test_recall": 0.7222222222222222,
+      "test_f1": 0.7239422084623324,
+      "test_roc_auc": 0.8126984126984127,
+      "confusion_matrix": [
+        [
+          14,
+          7
+        ],
+        [
+          3,
+          12
+        ]
+      ],
+      "true_positives": "14",
+      "false_positives": "3",
+      "false_negatives": "7",
+      "true_negatives": "12"
+    },
+    {
+      "model": "Logistic Regression (L1)",
+      "cv_accuracy_mean": 0.6242424242424243,
+      "cv_accuracy_std": 0.08265564664839913,
+      "train_accuracy": 0.6181818181818182,
+      "train_f1": 0.6222639296187683,
+      "val_accuracy": 0.6285714285714286,
+      "val_f1": 0.637173579109063,
+      "test_accuracy": 0.5833333333333334,
+      "test_precision": 0.625,
+      "test_recall": 0.5833333333333334,
+      "test_f1": 0.5810810810810811,
+      "test_roc_auc": 0.7238095238095239,
+      "confusion_matrix": [
+        [
+          10,
+          11
+        ],
+        [
+          4,
+          11
+        ]
+      ],
+      "true_positives": "10",
+      "false_positives": "4",
+      "false_negatives": "11",
+      "true_negatives": "11"
+    },
+    {
+      "model": "SVM (Linear)",
+      "cv_accuracy_mean": 0.6606060606060605,
+      "cv_accuracy_std": 0.07015658728963772,
+      "train_accuracy": 0.8121212121212121,
+      "train_f1": 0.8146592572124487,
+      "val_accuracy": 0.6857142857142857,
+      "val_f1": 0.6929930284768995,
+      "test_accuracy": 0.6944444444444444,
+      "test_precision": 0.7083333333333334,
+      "test_recall": 0.6944444444444444,
+      "test_f1": 0.6965811965811965,
+      "test_roc_auc": 0.7904761904761906,
+      "confusion_matrix": [
+        [
+          14,
+          7
+        ],
+        [
+          4,
+          11
+        ]
+      ],
+      "true_positives": "14",
+      "false_positives": "4",
+      "false_negatives": "7",
+      "true_negatives": "11"
+    },
+    {
+      "model": "SVM (RBF)",
+      "cv_accuracy_mean": 0.6666666666666666,
+      "cv_accuracy_std": 0.0919136417460794,
+      "train_accuracy": 0.8848484848484849,
+      "train_f1": 0.8861898360328828,
+      "val_accuracy": 0.7428571428571429,
+      "val_f1": 0.7488124778447359,
+      "test_accuracy": 0.7222222222222222,
+      "test_precision": 0.7435500515995872,
+      "test_recall": 0.7222222222222222,
+      "test_f1": 0.7239422084623324,
+      "test_roc_auc": 0.8317460317460317,
+      "confusion_matrix": [
+        [
+          14,
+          7
+        ],
+        [
+          3,
+          12
+        ]
+      ],
+      "true_positives": "14",
+      "false_positives": "3",
+      "false_negatives": "7",
+      "true_negatives": "12"
+    },
+    {
+      "model": "Random Forest",
+      "cv_accuracy_mean": 0.7454545454545455,
+      "cv_accuracy_std": 0.08698606117822619,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "val_accuracy": 0.8,
+      "val_f1": 0.7918367346938775,
+      "test_accuracy": 0.8055555555555556,
+      "test_precision": 0.8237179487179487,
+      "test_recall": 0.8055555555555556,
+      "test_f1": 0.7964539007092198,
+      "test_roc_auc": 0.8587301587301587,
+      "confusion_matrix": [
+        [
+          20,
+          1
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "true_positives": "20",
+      "false_positives": "6",
+      "false_negatives": "1",
+      "true_negatives": "9"
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_accuracy_mean": 0.7333333333333333,
+      "cv_accuracy_std": 0.06180629713445801,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "val_accuracy": 0.8285714285714286,
+      "val_f1": 0.8312687312687312,
+      "test_accuracy": 0.6666666666666666,
+      "test_precision": 0.6618181818181819,
+      "test_recall": 0.6666666666666666,
+      "test_f1": 0.6555183946488294,
+      "test_roc_auc": 0.8063492063492064,
+      "confusion_matrix": [
+        [
+          17,
+          4
+        ],
+        [
+          8,
+          7
+        ]
+      ],
+      "true_positives": "17",
+      "false_positives": "8",
+      "false_negatives": "4",
+      "true_negatives": "7"
+    },
+    {
+      "model": "K-Nearest Neighbors",
+      "cv_accuracy_mean": 0.7393939393939395,
+      "cv_accuracy_std": 0.08265564664839913,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "val_accuracy": 0.6285714285714286,
+      "val_f1": 0.6379430493812328,
+      "test_accuracy": 0.7777777777777778,
+      "test_precision": 0.7770345596432553,
+      "test_recall": 0.7777777777777778,
+      "test_f1": 0.774891774891775,
+      "test_roc_auc": 0.8095238095238095,
+      "confusion_matrix": [
+        [
+          18,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "true_positives": "18",
+      "false_positives": "5",
+      "false_negatives": "3",
+      "true_negatives": "10"
+    },
+    {
+      "model": "Decision Tree",
+      "cv_accuracy_mean": 0.6666666666666666,
+      "cv_accuracy_std": 0.07902063521457758,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "val_accuracy": 0.7142857142857143,
+      "val_f1": 0.7214285714285714,
+      "test_accuracy": 0.7222222222222222,
+      "test_precision": 0.7301341589267286,
+      "test_recall": 0.7222222222222222,
+      "test_f1": 0.7239583333333334,
+      "test_roc_auc": 0.7238095238095238,
+      "confusion_matrix": [
+        [
+          15,
+          6
+        ],
+        [
+          4,
+          11
+        ]
+      ],
+      "true_positives": "15",
+      "false_positives": "4",
+      "false_negatives": "6",
+      "true_negatives": "11"
+    },
+    {
+      "model": "Naive Bayes",
+      "cv_accuracy_mean": 0.6303030303030303,
+      "cv_accuracy_std": 0.10032088095301121,
+      "train_accuracy": 0.7454545454545455,
+      "train_f1": 0.7490469208211143,
+      "val_accuracy": 0.5714285714285714,
+      "val_f1": 0.5777465777465778,
+      "test_accuracy": 0.6666666666666666,
+      "test_precision": 0.7047619047619048,
+      "test_recall": 0.6666666666666666,
+      "test_f1": 0.6666666666666666,
+      "test_roc_auc": 0.707936507936508,
+      "confusion_matrix": [
+        [
+          12,
+          9
+        ],
+        [
+          3,
+          12
+        ]
+      ],
+      "true_positives": "12",
+      "false_positives": "3",
+      "false_negatives": "9",
+      "true_negatives": "12"
+    },
+    {
+      "model": "MLP (Deep Learning)",
+      "cv_accuracy_mean": null,
+      "cv_accuracy_std": null,
+      "train_accuracy": null,
+      "train_f1": null,
+      "val_accuracy": 0.9143,
+      "val_f1": null,
+      "test_accuracy": 0.8055555555555556,
+      "test_precision": null,
+      "test_recall": null,
+      "test_f1": 0.8012345679012346,
+      "test_roc_auc": null,
+      "confusion_matrix": null,
+      "note": "Trained separately with early stopping"
+    }
+  ]
+}

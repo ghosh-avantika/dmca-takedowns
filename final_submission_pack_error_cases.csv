@@ -1,0 +1,16 @@
+test_index,true_label,pred_label,cosine_distance_to_nearest_original,nearest_original_cosine_similarity,mlp_max_confidence,distance_to_t1,distance_to_t2,likely_failure_reason
+77,original,similar,0.12737900018692017,0.8726209998130798,0.9959579110145569,0.01683606207370758,0.09315279126167297,Likely false positive from shared category features (silhouette/color/layout).
+14,knockoff,similar,0.22644048929214478,0.7735595107078552,0.993176281452179,0.08222542703151703,0.005908697843551636,Strong visual overlap with nearest original; model underestimates infringement severity.
+34,knockoff,original,0.21289098262786865,0.7871090173721313,0.9834374189376831,0.0686759203672409,0.007640808820724487,Strong visual overlap with nearest original; model underestimates infringement severity.
+8,knockoff,similar,0.2536822557449341,0.7463177442550659,0.9808087348937988,0.10946719348430634,0.03315046429634094,Strong visual overlap with nearest original; model underestimates infringement severity.
+48,similar,knockoff,0.5232445597648621,0.47675544023513794,0.9782574772834778,0.3790295124053955,0.3027127683162689,Ambiguous design cues; likely needs richer texture/detail features or more hard negatives.
+68,similar,knockoff,0.2315956950187683,0.7684043049812317,0.9748441576957703,0.08738063275814056,0.011063903570175171,Ambiguous design cues; likely needs richer texture/detail features or more hard negatives.
+83,original,similar,0.18541979789733887,0.8145802021026611,0.9743512868881226,0.04120473563671112,0.03511199355125427,Likely false positive from shared category features (silhouette/color/layout).
+44,similar,knockoff,0.18605870008468628,0.8139412999153137,0.9743247628211975,0.04184363782405853,0.03447309136390686,Ambiguous design cues; likely needs richer texture/detail features or more hard negatives.
+5,knockoff,original,0.3092602491378784,0.6907397508621216,0.9443178772926331,0.16504518687725067,0.08872845768928528,Strong visual overlap with nearest original; model underestimates infringement severity.
+76,similar,original,0.12324243783950806,0.8767575621604919,0.9251096844673157,0.02097262442111969,0.09728935360908508,Ambiguous design cues; likely needs richer texture/detail features or more hard negatives.
+55,similar,original,0.04716038703918457,0.9528396129608154,0.9173572063446045,0.09705467522144318,0.17337140440940857,Ambiguous design cues; likely needs richer texture/detail features or more hard negatives.
+105,original,similar,0.24177813529968262,0.7582218647003174,0.9107293486595154,0.09756307303905487,0.021246343851089478,Likely false positive from shared category features (silhouette/color/layout).
+1,knockoff,original,0.209469735622406,0.790530264377594,0.8967277407646179,0.06525467336177826,0.011062055826187134,Strong visual overlap with nearest original; model underestimates infringement severity.
+24,knockoff,similar,0.5426934957504272,0.45730650424957275,0.8742988705635071,0.3984784483909607,0.3221617043018341,Strong visual overlap with nearest original; model underestimates infringement severity.
+65,similar,original,0.09334462881088257,0.9066553711891174,0.8712863922119141,0.05087043344974518,0.12718716263771057,Ambiguous design cues; likely needs richer texture/detail features or more hard negatives.

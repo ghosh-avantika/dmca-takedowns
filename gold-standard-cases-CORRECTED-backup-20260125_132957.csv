@@ -1,0 +1,46 @@
+case_id,original_designer_name,original_brand_name,original_item_type,original_design_elements,original_year,copier_brand_name,copier_item_type,copy_year,infringement_label,confidence,source,notes
+DP_001,Tuesday Bassen,Tuesday Bassen Studio,Illustration patches,"Hand-drawn feminist motifs, pastel palette",2014,Zara,Apparel patches,2016,knockoff,high,Diet Prada,Near-identical illustrations applied to garments
+DP_002,Elisa van Joolen,Elisa van Joolen,Sneakers,Reconstructed second-hand shoe collage,2018,Off-White™,Sneakers,2019,knockoff,high,Diet Prada,Same reconstruction logic and visual language
+DP_003,Colrs,Colrs,Apparel,Distinct color-blocking graphics,2017,Off-White™,Apparel,2018,similar,medium,Diet Prada,Highly similar arrangement and palette
+DP_004,Karen Perez,Second Wind,Masks,Original textile prints,2020,Multiple mass brands,Masks,2020,knockoff,high,Diet Prada,Identical prints reproduced at scale
+DP_005,Art Garments,Art Garments,Short set,Unique print + silhouette,2019,Sarah Bernstein,Apparel,2019,knockoff,high,Diet Prada,Same print and cut
+DP_006,Cecilia Monge,Independent,Footwear,Distinct color-blocked sneaker,2015,Converse,Sneakers,2019,knockoff,high,Press,Internship submission replicated
+DP_007,Jeff Staple,Staple Design,Sneakers,Pigeon motif,2005,Fast-fashion footwear,Sneakers,2017,similar,medium,Press,Motif reuse without licensing
+DP_008,Wales Bonner,Wales Bonner,Knitwear,Signature stripe & trim language,2016,Mass retailers,Knitwear,2019,similar,medium,Diet Prada,Design language appropriation
+DP_009,Dapper Dan,Dapper Dan,Luxury streetwear,Logo remix tailoring,1980s,Gucci,Apparel,2017,knockoff,high,Press,Direct replication pre-collab
+DP_010,Katie Perry (artist),Independent,Graphic art,Flame illustration,2013,Forever 21,Apparel,2015,knockoff,high,Legal filing,Exact graphic reuse
+case_id,original_designer_name,original_brand_name,item_type,original_design_elements,original_year,copier_brand,copy_year,label,knockoff,high,notes,
+DP_011,Jennifer Fisher,Jennifer Fisher Jewelry,Jewelry,Oversized hoop geometry,2014,Shein,2020,similar,similar,medium,Diet Prada,
+DP_012,Machete Jewelry,Machete,Hair accessories,Italian acetate shapes,2016,Anthropologie,2019,similar,similar,medium,Press,
+DP_013,Wolf Circus,Wolf Circus,Jewelry,Sculptural gold forms,2017,Amazon sellers,2020,knockoff,knockoff,high,Press,
+DP_014,Valet Studio,Valet,Hair accessories,Chunky pastel claws,2018,Fast fashion,2020,knockoff,knockoff,high,Diet Prada,
+DP_015,Petit Moments,Petit Moments,Jewelry,Minimalist chain motifs,2019,Shein,2021,similar,similar,medium,Diet Prada,
+case_id,original_designer,brand,item_type,elements,year,copier,copy_year,label,knockoff,high,,
+DP_016,Miranda Bennett,Miranda Bennett Studio,Apparel,Modular garment system,2015,Madewell,2019,similar,similar,medium,Press,
+DP_017,Emma Brewin,Emma Brewin,Hats,Furry oversized bucket,2017,Urban Outfitters,2019,knockoff,knockoff,high,Diet Prada,
+DP_018,Lisa Says Gah,Lisa Says Gah,Dresses,Retro prints,2018,Shein,2020,knockoff,knockoff,high,Diet Prada,
+DP_019,Chromat,Chromat,Swimwear,Architectural straps,2016,Mass swimwear,2019,similar,similar,medium,Press,
+DP_020,Bode,Bode,Quilted jackets,Heirloom textile collage,2017,Zara,2021,similar,similar,medium,Diet Prada,
+case_id,original_designer,brand,item,elements,year,copier,copy_year,label,knockoff,high,,
+DP_021,Brother Vellies,Brother Vellies,Sandals,Braided leather,2016,Fast fashion,2018,similar,similar,medium,,
+DP_022,Telfar Clemens,Telfar,Tote bag,Embossed logo tote,2014,Fast fashion,2019,knockoff,knockoff,high,,
+DP_023,Brandon Blackwood,Brandon Blackwood,Trunk bag,Structured trunk silhouette,2018,Amazon sellers,2020,knockoff,knockoff,high,,
+DP_024,ERL,ERL,Sneakers,Distressed colorways,2020,Mall brands,2022,similar,similar,medium,,
+case_id,original_group,item_type,elements,copier,,,,label,knockoff,high,,
+DP_025,Indigenous artisans,Beaded bags,Traditional motifs,Mass sellers,,,,knockoff,knockoff,high,,
+DP_026,Tattoo artists,Graphic tees,Flash art,Shein,,,,knockoff,knockoff,high,,
+DP_027,Queer designers,Slogan tees,Original phrases,Amazon POD,,,,knockoff,knockoff,high,,
+DP_028,Protest merch designers,Apparel,BLM slogans,Fast fashion,,,,similar,similar,medium,,
+DP_029,Latinx designers,Prints,Cultural motifs,Shein,,,,knockoff,knockoff,high,,
+DP_030,Illustrators (IG),Graphics,Hand-drawn art,Romwe,,,,knockoff,knockoff,high,,
+case_id,original,copier,category,,,,,label,unknown,unknown,,
+DP_031,Rinat Brodach,Zara,Apparel,,,,,similar,unknown,unknown,,
+DP_032,Bananatex designers,Fast fashion,Cargo pants,,,,,similar,unknown,unknown,,
+DP_033,Raven + Lily,Amazon sellers,Jewelry,,,,,knockoff,unknown,unknown,,
+DP_034,Kehinde Wiley–inspired indie,Mass retail,Prints,,,,,similar,unknown,unknown,,
+DP_035,Independent leather studios,Mango,Bags,,,,,similar,unknown,unknown,,
+DP_036,Mejuri collaborators,AliExpress,Jewelry,,,,,knockoff,unknown,unknown,,
+DP_037,Ana Luisa (indie lines),Marketplaces,Jewelry,,,,,similar,unknown,unknown,,
+DP_038,Small Etsy designers,Shein,Apparel,,,,,knockoff,unknown,unknown,,
+DP_039,Instagram knit designers,Zara,Knitwear,,,,,similar,unknown,unknown,,
+DP_040,Streetwear startups,H&M,Hoodies,,,,,similar,unknown,unknown,,

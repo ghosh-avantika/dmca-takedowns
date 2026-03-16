@@ -1,0 +1,29 @@
+{
+  "data": "deepfashion.pt",
+  "input_dim": 512,
+  "output_dim": 128,
+  "min_keyword_overlap": 1,
+  "results": [
+    {
+      "model": "Raw Embeddings",
+      "recall@1": 0.9747325290234464,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mAP": 0.9117647073044075
+    },
+    {
+      "model": "Shallow Projection",
+      "recall@1": 0.9729114500341453,
+      "recall@5": 0.9995447302526748,
+      "recall@10": 1.0,
+      "mAP": 0.9455620923366942
+    },
+    {
+      "model": "Deep Projection",
+      "recall@1": 0.9786023218757114,
+      "recall@5": 0.9988618256316868,
+      "recall@10": 1.0,
+      "mAP": 0.94014643854502
+    }
+  ]
+}

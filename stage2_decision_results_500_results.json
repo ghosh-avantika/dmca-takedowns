@@ -1,0 +1,101 @@
+{
+  "runs": [
+    {
+      "dataset": "dataset_500_with_original.pt",
+      "train_size": 519,
+      "val_size": 110,
+      "test_size": 114,
+      "feature_dim": 512,
+      "label_to_idx": {
+        "knockoff": 0,
+        "similar": 1,
+        "original": 2
+      }
+    }
+  ],
+  "results": [
+    {
+      "model": "Cosine Thresholds",
+      "middle_class": "similar",
+      "t1": 0.14421506573756535,
+      "t2": 0.22053179542223614,
+      "val_macro_f1_for_threshold_search": 0.433834930717606,
+      "accuracy": 0.4824561403508772,
+      "macro_f1": 0.48086081175025797,
+      "confusion_matrix": [
+        [
+          22,
+          11,
+          7
+        ],
+        [
+          15,
+          14,
+          8
+        ],
+        [
+          7,
+          11,
+          19
+        ]
+      ],
+      "dataset": "dataset_500_with_original.pt"
+    },
+    {
+      "model": "Logistic Regression (pairwise features)",
+      "middle_class": "similar",
+      "accuracy": 0.4473684210526316,
+      "macro_f1": 0.4484635832004253,
+      "confusion_matrix": [
+        [
+          14,
+          19,
+          7
+        ],
+        [
+          15,
+          14,
+          8
+        ],
+        [
+          8,
+          6,
+          23
+        ]
+      ],
+      "dataset": "dataset_500_with_original.pt"
+    },
+    {
+      "model": "MLP (abs diff + pairwise features)",
+      "middle_class": "similar",
+      "accuracy": 0.7368421052631579,
+      "macro_f1": 0.736842105263158,
+      "confusion_matrix": [
+        [
+          29,
+          6,
+          5
+        ],
+        [
+          4,
+          27,
+          6
+        ],
+        [
+          3,
+          6,
+          28
+        ]
+      ],
+      "dataset": "dataset_500_with_original.pt"
+    }
+  ],
+  "notes": {
+    "confusion_label_order": "[far_class, middle_class, original]",
+    "models": [
+      "Cosine Thresholds",
+      "Logistic Regression (pairwise features)",
+      "MLP (abs diff + pairwise features)"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "dataset_500_with_original.pt",
+  "seed": 42,
+  "thresholds": {
+    "t1": 0.14421506573756535,
+    "t2": 0.22053179542223614
+  },
+  "best_model_by_test_macro_f1": "MLP (abs diff + pairwise features)",
+  "num_total_test_errors_best_model": 30,
+  "exported_error_cases": 15,
+  "outputs": {
+    "metrics_csv": "final_submission_pack_metrics.csv",
+    "error_cases_csv": "final_submission_pack_error_cases.csv"
+  }
+}

@@ -1,0 +1,35 @@
+case_id,design_elements,original_designer,copier,label,top_similar_1,similarity_1,top_similar_2,similarity_2,top_similar_3,similarity_3
+DP_001,"Hand-drawn feminist motifs, pastel palette",Tuesday Bassen,Zara,knockoff,DP_004: Original textile prints,0.8084,DP_018: Retro prints,0.7931,DP_015: Minimalist chain motifs,0.7700
+DP_002,Reconstructed second-hand shoe collage,Elisa van Joolen,Off-White™,knockoff,DP_028: Fast fashion,0.7525,DP_020: Heirloom textile collage,0.7489,DP_006: Distinct color-blocked sneaker,0.7385
+DP_003,Distinct color-blocking graphics,Colrs,Off-White™,similar,case_id: original_design_elements,0.8372,DP_018: Retro prints,0.8267,DP_030: Romwe,0.8170
+DP_004,Original textile prints,Karen Perez,Multiple mass brands,knockoff,DP_018: Retro prints,0.9066,DP_020: Heirloom textile collage,0.8341,case_id: original_design_elements,0.8258
+DP_005,Unique print + silhouette,Art Garments,Sarah Bernstein,knockoff,DP_018: Retro prints,0.8652,DP_004: Original textile prints,0.8180,DP_015: Minimalist chain motifs,0.7881
+DP_006,Distinct color-blocked sneaker,Cecilia Monge,Converse,knockoff,DP_003: Distinct color-blocking graphics,0.8063,DP_024: Distressed colorways,0.7794,DP_028: Fast fashion,0.7519
+DP_007,Pigeon motif,Jeff Staple,Fast-fashion footwear,similar,case_id: original_design_elements,0.7882,DP_004: Original textile prints,0.7855,DP_030: Romwe,0.7779
+DP_008,Signature stripe & trim language,Wales Bonner,Mass retailers,similar,DP_003: Distinct color-blocking graphics,0.8097,DP_019: Architectural straps,0.8089,DP_009: Logo remix tailoring,0.8003
+DP_009,Logo remix tailoring,Dapper Dan,Gucci,knockoff,DP_028: Fast fashion,0.8429,DP_018: Retro prints,0.8196,DP_004: Original textile prints,0.8112
+DP_010,Flame illustration,Katie Perry (artist),Forever 21,knockoff,case_id: original_design_elements,0.8527,case_id: elements,0.8423,case_id: elements,0.8423
+case_id,original_design_elements,original_designer_name,copier_brand,confidence,case_id: elements,0.9403,case_id: elements,0.9403,DP_030: Romwe,0.8650
+DP_011,Oversized hoop geometry,Jennifer Fisher,Shein,medium,case_id: original_design_elements,0.7542,DP_019: Architectural straps,0.7491,DP_012: Italian acetate shapes,0.7477
+DP_012,Italian acetate shapes,Machete Jewelry,Anthropologie,medium,case_id: original_design_elements,0.7880,case_id: elements,0.7857,case_id: elements,0.7857
+DP_013,Sculptural gold forms,Wolf Circus,Amazon sellers,high,DP_030: Romwe,0.7981,DP_015: Minimalist chain motifs,0.7928,case_id: original_design_elements,0.7867
+DP_014,Chunky pastel claws,Valet Studio,Fast fashion,high,"DP_001: Hand-drawn feminist motifs, pastel palet",0.6039,DP_006: Distinct color-blocked sneaker,0.5279,DP_015: Minimalist chain motifs,0.5259
+DP_015,Minimalist chain motifs,Petit Moments,Shein,medium,case_id: original_design_elements,0.8423,case_id: elements,0.8288,case_id: elements,0.8288
+case_id,elements,original_designer,copier,confidence,case_id: elements,1.0000,case_id: original_design_elements,0.9403,DP_030: Romwe,0.8596
+DP_016,Modular garment system,Miranda Bennett,Madewell,medium,DP_028: Fast fashion,0.7949,case_id: original_design_elements,0.7808,case_id: elements,0.7777
+DP_017,Furry oversized bucket,Emma Brewin,Urban Outfitters,high,DP_011: Oversized hoop geometry,0.7122,DP_030: Romwe,0.7019,case_id: elements,0.6928
+DP_018,Retro prints,Lisa Says Gah,Shein,high,DP_004: Original textile prints,0.9066,DP_005: Unique print + silhouette,0.8652,case_id: original_design_elements,0.8317
+DP_019,Architectural straps,Chromat,Mass swimwear,medium,DP_008: Signature stripe & trim language,0.8089,DP_004: Original textile prints,0.7894,DP_015: Minimalist chain motifs,0.7883
+DP_020,Heirloom textile collage,Bode,Zara,medium,DP_004: Original textile prints,0.8341,DP_018: Retro prints,0.7663,DP_009: Logo remix tailoring,0.7542
+case_id,elements,original_designer,copier,confidence,case_id: elements,1.0000,case_id: original_design_elements,0.9403,DP_030: Romwe,0.8596
+DP_021,Braided leather,Brother Vellies,Fast fashion,medium,DP_015: Minimalist chain motifs,0.7525,DP_019: Architectural straps,0.7523,DP_018: Retro prints,0.7218
+DP_022,Embossed logo tote,Telfar Clemens,Fast fashion,high,DP_009: Logo remix tailoring,0.7110,DP_028: Fast fashion,0.6572,DP_015: Minimalist chain motifs,0.6564
+DP_023,Structured trunk silhouette,Brandon Blackwood,Amazon sellers,high,DP_005: Unique print + silhouette,0.7281,DP_018: Retro prints,0.7148,DP_008: Signature stripe & trim language,0.7138
+DP_024,Distressed colorways,ERL,Mall brands,medium,DP_006: Distinct color-blocked sneaker,0.7794,DP_028: Fast fashion,0.7787,DP_009: Logo remix tailoring,0.7590
+case_id,copier,original_group,,confidence,DP_030: Romwe,0.8625,DP_026: Shein,0.8319,DP_029: Shein,0.8319
+DP_025,Mass sellers,Indigenous artisans,,high,DP_030: Romwe,0.8611,DP_028: Fast fashion,0.8434,DP_029: Shein,0.8273
+DP_026,Shein,Tattoo artists,,high,DP_029: Shein,1.0000,DP_030: Romwe,0.8780,DP_028: Fast fashion,0.8632
+DP_027,Amazon POD,Queer designers,,high,DP_030: Romwe,0.8035,DP_028: Fast fashion,0.7968,DP_026: Shein,0.7725
+DP_028,Fast fashion,Protest merch designers,,medium,DP_026: Shein,0.8632,DP_029: Shein,0.8632,DP_030: Romwe,0.8513
+DP_029,Shein,Latinx designers,,high,DP_029: Shein,1.0000,DP_030: Romwe,0.8780,DP_028: Fast fashion,0.8632
+DP_030,Romwe,Illustrators (IG),,high,DP_029: Shein,0.8780,DP_026: Shein,0.8780,case_id: original_design_elements,0.8650

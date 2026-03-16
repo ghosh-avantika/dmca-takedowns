@@ -1,0 +1,122 @@
+{
+  "dataset": "dataset_500_with_original.pt",
+  "label_to_idx": {
+    "knockoff": 0,
+    "similar": 1,
+    "original": 2
+  },
+  "results": [
+    {
+      "model": "Cosine Thresholds",
+      "t1": 0.14405921578407288,
+      "t2": 0.19933103084564213,
+      "accuracy": 0.21052631578947367,
+      "macro_f1": 0.21529584900371415,
+      "confusion_matrix": [
+        [
+          7,
+          9,
+          24
+        ],
+        [
+          8,
+          9,
+          20
+        ],
+        [
+          19,
+          10,
+          8
+        ]
+      ]
+    },
+    {
+      "model": "Logistic Regression (centroid features)",
+      "accuracy": 0.5877192982456141,
+      "macro_f1": 0.5931093884582257,
+      "confusion_matrix": [
+        [
+          16,
+          21,
+          3
+        ],
+        [
+          12,
+          23,
+          2
+        ],
+        [
+          4,
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "model": "MLP (centroid features)",
+      "accuracy": 0.5877192982456141,
+      "macro_f1": 0.5931093884582257,
+      "confusion_matrix": [
+        [
+          16,
+          21,
+          3
+        ],
+        [
+          12,
+          23,
+          2
+        ],
+        [
+          4,
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "model": "Logistic Regression (pairwise features)",
+      "accuracy": 0.42105263157894735,
+      "macro_f1": 0.4190377905548184,
+      "confusion_matrix": [
+        [
+          16,
+          15,
+          9
+        ],
+        [
+          17,
+          11,
+          9
+        ],
+        [
+          11,
+          5,
+          21
+        ]
+      ]
+    },
+    {
+      "model": "MLP (abs diff + pairwise features)",
+      "accuracy": 0.7456140350877193,
+      "macro_f1": 0.7450142450142451,
+      "confusion_matrix": [
+        [
+          30,
+          5,
+          5
+        ],
+        [
+          4,
+          29,
+          4
+        ],
+        [
+          4,
+          7,
+          26
+        ]
+      ]
+    }
+  ]
+}
